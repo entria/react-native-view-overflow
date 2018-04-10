@@ -1,5 +1,13 @@
 # react-native-view-overflow
 
+## Motivation
+
+The problem is that a parent View in Android will clip the content of children Views (react-native)
+
+This solves the problem of Overflow on Android (check this https://github.com/facebook/react-native/issues/16951)
+
+This could make code simpler, so you don't need to move some Components outside parents to make layout work
+
 ## Getting started
 
 `$ npm install react-native-view-overflow --save`
@@ -17,8 +25,6 @@ import ViewOverflow from 'react-native-view-overflow';
 </ViewOverflow>
 
 ```
-
-This solves the problem of Overflow on Android (check this https://github.com/facebook/react-native/issues/16951)
 
 ### Manual installation
 
