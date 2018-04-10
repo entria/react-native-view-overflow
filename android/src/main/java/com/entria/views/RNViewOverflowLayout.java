@@ -4,9 +4,9 @@ import android.content.Context;
 import android.view.ViewGroup;
 import com.facebook.react.views.view.ReactViewGroup;
 
-public class ViewWithoutOverflowLayout extends ReactViewGroup {
+public class RNViewOverflowLayout extends ReactViewGroup {
 
-    public ViewWithoutOverflowLayout(Context context) {
+    public RNViewOverflowLayout(Context context) {
         super(context);
     }
 
