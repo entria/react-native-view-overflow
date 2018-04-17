@@ -8,6 +8,8 @@ This solves the problem of Overflow on Android (check this https://github.com/fa
 
 This could make code simpler, so you don't need to move some Components outside parents to make layout work
 
+You can read more about the motivation and this package here https://medium.com/@sibelius/solving-view-overflow-in-android-reactnative-f961752a75cd
+
 ## Getting started
 
 `$ npm install react-native-view-overflow --save`
