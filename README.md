@@ -32,6 +32,13 @@ import ViewOverflow from 'react-native-view-overflow';
 
 #### iOS
 
+via CocoaPods:
+
+1. Open comand line in your project IOS folder, and run command `pod install`.
+2. Run your project (`Cmd+R`)
+
+or via Libraries:
+
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-view-overflow` and add `RNViewOverflow.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNViewOverflow.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
