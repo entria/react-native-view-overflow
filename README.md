@@ -28,6 +28,22 @@ import ViewOverflow from 'react-native-view-overflow';
 
 ```
 
+## Usage with Flatlist
+To make this work with FlatList and related components you need to replace `CellRendererComponent` with `ViewOverflow`, for example:
+
+```jsx
+<FlatList
+  data={this.state.data}
+  keyExtractor={item => item.id}
+  CellRendererComponent={ViewOverflow}  
+  renderItem={({ item, index }) => (
+      <ViewOverflow style={styles.item}>
+      // item....
+      </ViewOverflow>
+   )}
+/>
+```
+
 ### Manual installation
 
 #### iOS
