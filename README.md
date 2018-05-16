@@ -44,6 +44,16 @@ To make this work with FlatList and related components you need to replace `Cell
 />
 ```
 
+## Usage with Animated Views
+To make this work in place of an `Animated.View`, you need to use `Animated.createAnimatedComponent` to create an animatable version of ViewOverflow. For example:
+
+```
+import ViewOverflow from 'react-native-view-overflow';
+const AnimatedViewOverflow = Animated.createAnimatedComponent(ViewOverflow);
+```
+
+You can the use `AnimatedViewOverflow` in place of `Animated.View`.
+
 ### Manual installation
 
 #### Android
