@@ -36,10 +36,6 @@ ext {
 }
 
 subprojects { subproject ->
-    if(subproject.name.equals('react-native-google-analytics-bridge')) {
-        project.ext.'googlePlayServicesVersion' = rootProject.ext.googleServicesVersion
-    }
-
     afterEvaluate{
         if((subproject.plugins.hasPlugin('android') || subproject.plugins.hasPlugin('android-library'))) {
             android {
