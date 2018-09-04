@@ -56,7 +56,7 @@ You can then use `AnimatedViewOverflow` in place of `Animated.View`.
 
 ### Manual installation
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
   - Add `import com.entria.views.RNViewOverflowPackage;` to the imports at the top of the file
   - Add `new RNViewOverflowPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
