@@ -20,7 +20,7 @@ public class RNViewOverflowManager extends ViewGroupManager<RNViewOverflowLayout
     
     @ReactProp(name = "borderRadius", defaultFloat = 0f)
     public void setBorderRadius(RNViewOverflowLayout view, float borderRadius) {
-      view.setBorderRadius(borderRadius*3.5f);
+      view.setBorderRadius(borderRadius);
     }
 
 }
