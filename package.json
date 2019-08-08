@@ -3,6 +3,7 @@
   "description": "solve view overflow in android",
   "version": "0.0.4",
   "author": "entria",
+  "homepage": "https://github.com/entria/react-native-view-overflow",
   "keywords": [
     "react-native"
   ],
