@@ -1,5 +1,9 @@
 # react-native-view-overflow
 
+## React Native Version Notice
+
+This library will be useful for React Native versions below v0.57. For v0.57 and beyond, React Native supports Android overflow natively from [this commit](https://github.com/facebook/react-native/commit/b81c8b51fc6fe3c2dece72e3fe500e175613c5d4).
+
 ## Motivation
 
 The problem is that a parent View in Android will clip the content of children Views (react-native)
