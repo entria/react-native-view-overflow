@@ -16,11 +16,11 @@ You can read more about the motivation and this package here https://medium.com/
 
 ## Getting started
 ### Steps to (mostly) automatically install react-native-view-overflow
-#### If you are using react-native >=.60
+#### If you are using react-native >=0.60.0
 
 `$ npm install react-native-view-overflow --save`
 
-#### Otherwise, if you are using react-native <.60 
+#### Otherwise, if you are using react-native <0.60.0 
 
 `$ npm install react-native-view-overflow --save`
 
