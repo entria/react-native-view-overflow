@@ -15,10 +15,14 @@ This could make code simpler, so you don't need to move some Components outside 
 You can read more about the motivation and this package here https://medium.com/@sibelius/solving-view-overflow-in-android-reactnative-f961752a75cd
 
 ## Getting started
+### Steps to (mostly) automatically install react-native-view-overflow
+#### If you are using react-native >=0.60.0
 
 `$ npm install react-native-view-overflow --save`
 
-### Mostly automatic installation
+#### Otherwise, if you are using react-native <0.60.0 
+
+`$ npm install react-native-view-overflow --save`
 
 `$ react-native link react-native-view-overflow`
 
