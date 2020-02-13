@@ -12,6 +12,10 @@
   "peerDependencies": {
     "react-native": ">=0.41.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entria/react-native-view-overflow.git"
+  },
   "scripts": {
     "release:major": "npm version major && git push origin && git push origin --follow-tags",
     "release:minor": "npm version minor && git push origin && git push origin --follow-tags",
